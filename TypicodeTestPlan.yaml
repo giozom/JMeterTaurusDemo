@@ -1,0 +1,28 @@
+---
+execution:
+- concurrency: 20
+  hold-for: 120s
+  iterations: 2
+  ramp-up: 10s
+  scenario: Typicode Thread Group
+scenarios:
+  Typicode Thread Group:
+    requests:
+    - label: GET /posts
+      method: GET
+      url: http://jsonplaceholder.typicode.com/posts
+    - label: GET /posts/1
+      method: GET
+      url: http://jsonplaceholder.typicode.com/posts/1
+    - body: "{ \r\n\t\"title\": \"testing using jmeter\",\r\n\t\"author\": \"REST\
+        \ Tester\"\r\n}"
+      label: POST /posts
+      method: POST
+      url: http://jsonplaceholder.typicode.com/posts
+    - label: GET /posts/1/comments
+      method: GET
+      url: http://jsonplaceholder.typicode.com/posts/1/comments
+    store-cache: false
+    store-cookie: false
+    use-dns-cache-mgr: false
+
