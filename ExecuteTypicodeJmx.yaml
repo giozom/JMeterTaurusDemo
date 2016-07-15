@@ -1,6 +1,6 @@
 ---
 execution:
-  hold-for: 120s
+  hold-for: 160s
 - scenario: simple
 
 scenarios:
