@@ -3,7 +3,7 @@ execution:
 - concurrency: 20
   hold-for: 120s
   iterations: 2
-  ramp-up: 10s
+  ramp-up: 60s
   scenario: Typicode Thread Group
 scenarios:
   Typicode Thread Group:
