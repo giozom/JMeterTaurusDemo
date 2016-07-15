@@ -2,7 +2,7 @@
 A JMeter Taurus Basic Project 
 
 ### Getting started - You will need python 2.7 or higher and Java Runtime installed
-* Follow the Python and Taurus installation instructions at:
+* Using Windows/Mac/Linux? Follow the Python and Taurus installation instructions at:
   http://gettaurus.org/docs/Installation/
 * git clone <**_repo_**>
 * cd **JMeterTaurusDemo**
